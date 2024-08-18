@@ -1,0 +1,96 @@
+
+.productsContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 6fr);
+    gap: 2px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 1024px) {
+    .productsContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .productsContainer {
+        grid-template-columns: 1fr;
+    }
+}
+
+.products{
+ padding: 5px;
+ margin:10px 0;
+}
+
+.products img{
+    width: 250px;
+    height: 240px;
+    border-radius: 2rem;
+}
+
+.pName{
+    font-size:small;
+    font-weight: 500;
+    margin: 10px 0;
+    place-items: center; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.pPrice{
+font-size:medium;
+font-weight:bold;
+place-items:center;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.pDescription:hover{
+    font-size:smaller;
+    display: none;
+}
+
+.mainGrid{
+    justify-content: center;
+    display:grid;   
+}
+
+.gridforAll{
+    width: 290px;
+    height: 410px;
+    display: flex;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    margin: 8px;
+    padding: 8.5px;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+}
+
+.gridPosition{
+    justify-content: center;
+}
+
+.Btn{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: green;
+    border: none;
+    color:white;
+    padding: 10px 10px;
+    text-decoration: none;
+    display:inline-block;
+    cursor: pointer;
+    border-bottom: 4px solid white;
+  box-shadow: 6px 6px 6px white;
+  user-select: none;
+  background: green;
+  transition: background 0.01s linear;
+  transition: all .01s linear;
+}
+
+.Btn:active{
+    box-shadow: 2px 2px 2px white;
+  border-bottom: 1px solid white;
+  transform: translateY(3px);
+}

@@ -1,0 +1,64 @@
+
+
+.logInCard{
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 420px;
+    height: 350px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.cardLocation{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em;
+}
+
+.systemCard{
+    margin: 60px;
+}
+
+.welcomeFont{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont,
+     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+     'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.passwordAndEmail{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+      'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.box{
+    width: 90%;
+    padding: 15px;
+}
+
+.loginBtn{
+    padding: 15px;
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont,
+     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+      'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    width: 105%;
+    background-color: green;
+}
+
+.boxPosition{
+    margin:auto;
+    width:50%;
+
+}
+
+.btnPosition{
+    margin:auto;
+    width:50%;
+}
+
+
